@@ -1,0 +1,9 @@
+[2025-05-18 14:01:30,860] INFO __main__ {main:20} - starting web application
+[2025-05-18 14:01:30,873] DEBUG __main__ {main:21} - starting web application
+[2025-05-18 14:01:44,704] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:48,290] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:48,293] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:48,303] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:49,798] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:49,801] DEBUG MsalMiddleWareLogger {identity_context_data:22} - Getting identity_context from request/session
+[2025-05-18 14:01:49,801] WARNING django.request {log_response:248} - Unauthorized: /api/tasks/

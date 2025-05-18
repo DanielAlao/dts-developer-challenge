@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: small;
+}
+
+.body-content {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#footer {
+    margin-left:10px;
+    margin-right:10px;
+    font-size: smaller;
+    color: rgb(105, 108, 113);
+    font-style: oblique;
+    border-top: solid thin rgb(105, 108, 113);
+}
+
+
+.navbar-brand {
+    font-size: medium;
+    padding: 8px;
+    /* border-style:dotted; */
+    margin-left: 5px;
+}
+
+
+.navbar-nav {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-item {
+    display: table;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+
+.btn-warning {
+    background-color: #e1ae15;
+    border-color: #e1ae15;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-success {
+    background-color: #0e482d;
+    border-color: #0e482d;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+table, tbody, thead, th, td {
+    border: 1px solid rgb(213 217 223);
+}
+
+table {
+    padding-top: 2px;
+}
+
+table.dataTable thead th {
+    font-weight: normal;
+}
+
+table.dataTable thead>tr>th.sorting_desc:after, 
+table.dataTable thead>tr>th.sorting_asc:before {
+    opacity: 1;
+}
+
+:root {
+    --dt-row-selected: 176, 196, 222;
+    --dt-row-selected-text: 255, 255, 255;
+}
+
+a.command-link {
+    display: inline-block;
+    color: black;
+    background-color: #F0F0F0;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 1px 6px;
+    border: 2px solid;
+    border-color:#545454 black black #545454 ;
+}
+
+.form-group label {
+    font-size: small;
+    color: rgb(105, 108, 113);
+}
+
+.form-group input::placeholder {
+    color:lightgrey;
+}
+
+.form-radio label, .form-check label {
+    font-size: medium;
+    color: black;
+}
+
+.form-group button {
+    margin: 0 2px 0 0;
+}

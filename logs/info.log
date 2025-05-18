@@ -1,0 +1,2 @@
+[2025-05-18 14:01:30,860] INFO  manage.py - starting web application
+[2025-05-18 14:01:49,801] WARNING  log.py - Unauthorized: /api/tasks/

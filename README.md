@@ -31,8 +31,16 @@
   - User-friendly interface with error handling & validation
   - uses backend api
 
+- **End User Endpoint**:
+  Below is the end user url
+
+  - `http://localhost:8000/dashboard/` – Dashboard
+
 - **Screenshots**:
+  ![Authentication](screenshots/auth.JPG)
+  ![Azure-config](screenshots/azure-config.JPG)
   ![Dashboard](screenshots/dashboard.JPG)
+  ![Add-task](screenshots/add-task.JPG)
 
 ---
 
@@ -42,4 +50,34 @@
 - **Run Tests**:
   ```cmd
   python manage.py test
+  ```
+
+---
+
+## Setup Database
+
+- Create mysql server database and enter credentials in settings.py
+
+---
+
+## Running app
+
+- **Azure configuration**:
+
+  - Register app in azure with redirect uri - http://localhost:8000/auth/redirect
+  - Rename aad.config-template to aad.config.json
+  - Enter tenant ID, Client ID and Client Secret in aad.config.json
+
+- **Run following commands**:
+  ```cmd
+  pip install requirements.txt
+  ```
+  ```cmd
+  python manage.py makemigrations
+  ```
+  ```cmd
+  python manage.py migrate
+  ```
+  ```cmd
+  python manage.py runserver
   ```

@@ -70,7 +70,10 @@
 
 - **Run following commands**:
   ```cmd
-  pip install requirements.txt
+  pip install -r requirements.txt
+  ```
+  ```cmd
+  python manage.py createsuperuser
   ```
   ```cmd
   python manage.py makemigrations
